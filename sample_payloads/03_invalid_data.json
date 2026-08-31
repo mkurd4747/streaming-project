@@ -1,0 +1,68 @@
+[
+  {
+    "employee_id": "E007",
+    "employee_name": "Daniel Anderson",
+    "department": "Engineering",
+    "designation": "Senior DevOps Engineer",
+    "salary": 120000,
+    "joining_date": "2019-08-14",
+    "city": "Boulder",
+    "state": "CO",
+    "country": "USA"
+  },
+  {
+    "employee_id": "E013",
+    "employee_name": "Liam Scott",
+    "department": "Marketing",
+    "designation": "SEO Specialist",
+    "salary": 87000,
+    "joining_date": "2024-08-12",
+    "city": "San Diego",
+    "state": "CA",
+    "country": "USA"
+  },
+  {
+    "employee_id": "E014",
+    "employee_name": "Emma Green",
+    "department": "Finance",
+    "designation": "Financial Consultant",
+    "salary": 91000,
+    "joining_date": "2024-09-01",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA"
+  },
+  {
+    "employee_id": "E015",
+    "employee_name": "Noah Clark",
+    "department": "Sales",
+    "designation": "Account Executive",
+    "salary": 95000,
+    "joining_date": "2024-10-15",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA"
+  },
+  {
+    "employee_id": "",
+    "employee_name": "James Anderson",
+    "department": "HR",
+    "designation": "HR Assistant",
+    "salary": 50000,
+    "joining_date": "2024-01-01",
+    "city": "Houston",
+    "state": "TX",
+    "country": "USA"
+  },
+  {
+    "employee_id": "",
+    "employee_name": "Sophia Martinez",
+    "department": "Engineering",
+    "designation": "Software Intern",
+    "salary": 30000,
+    "joining_date": "2024-02-01",
+    "city": "Austin",
+    "state": "TX",
+    "country": "USA"
+  }
+]

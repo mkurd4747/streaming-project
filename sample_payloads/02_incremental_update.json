@@ -1,0 +1,57 @@
+[
+  {
+    "employee_id": "E003",
+    "employee_name": "Michael Brown",
+    "department": "Finance",
+    "designation": "Senior Financial Analyst",
+    "salary": 92000,
+    "joining_date": "2023-03-05",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA"
+  },
+  {
+    "employee_id": "E005",
+    "employee_name": "David Wilson",
+    "department": "Engineering",
+    "designation": "Senior Data Engineer",
+    "salary": 125000,
+    "joining_date": "2020-09-18",
+    "city": "Seattle",
+    "state": "WA",
+    "country": "USA"
+  },
+  {
+    "employee_id": "E008",
+    "employee_name": "Olivia Martinez",
+    "department": "Finance",
+    "designation": "Senior Accountant",
+    "salary": 80000,
+    "joining_date": "2022-06-30",
+    "city": "Orlando",
+    "state": "FL",
+    "country": "USA"
+  },
+  {
+    "employee_id": "E011",
+    "employee_name": "James Walker",
+    "department": "Engineering",
+    "designation": "Backend Engineer",
+    "salary": 99000,
+    "joining_date": "2024-02-10",
+    "city": "San Jose",
+    "state": "CA",
+    "country": "USA"
+  },
+  {
+    "employee_id": "E012",
+    "employee_name": "Ava Harris",
+    "department": "Sales",
+    "designation": "Sales Manager",
+    "salary": 102000,
+    "joining_date": "2024-05-01",
+    "city": "Phoenix",
+    "state": "AZ",
+    "country": "USA"
+  }
+]

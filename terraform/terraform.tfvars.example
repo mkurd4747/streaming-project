@@ -1,0 +1,17 @@
+# Copy this file to terraform.tfvars and fill in real values.
+# terraform.tfvars is in .gitignore - never commit real account IDs/ARNs if
+# this repo is public, though none of these values are secret credentials.
+
+project_name = "de-academy-streaming"
+environment  = "dev"
+aws_region   = "us-east-1"
+
+# --- Phase 1 (first apply): leave these as placeholders ---
+snowflake_iam_user_arn = "arn:aws:iam::000000000000:user/placeholder-snowflake-user"
+snowflake_external_id  = "PLACEHOLDER_EXTERNAL_ID_0000"
+snowpipe_sqs_arn        = ""
+
+# --- Phase 2 (after running the Snowflake SQL scripts): ---
+# snowflake_iam_user_arn = "arn:aws:iam::123456789012:user/abcd-a-role/xyz"   # from DESC INTEGRATION
+# snowflake_external_id  = "AB12345_SFCRole=2_xxxxxxxxxxxxxxxxxxxxxxxxxxx="   # from DESC INTEGRATION
+# snowpipe_sqs_arn        = "arn:aws:sqs:us-east-1:123456789012:sf-snowpipe-..."  # from DESC PIPE

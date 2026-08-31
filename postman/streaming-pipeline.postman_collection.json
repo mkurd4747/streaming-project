@@ -1,0 +1,55 @@
+{
+  "info": {
+    "name": "AWS + Snowflake Streaming Pipeline (SCD1)",
+    "description": "Course module 10 - hits the API Gateway endpoint that fronts the Lambda -> Kinesis -> Firehose -> S3 -> Snowpipe -> Snowflake pipeline. Set the `api_url` collection variable to your Terraform `api_invoke_url` output before running.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "api_url",
+      "value": "https://REPLACE-ME.execute-api.us-east-1.amazonaws.com/dev/streaming-data",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "1 - Full Data Load",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "<paste contents of sample_payloads/01_full_load.json here>"
+        },
+        "url": { "raw": "{{api_url}}", "host": ["{{api_url}}"] }
+      },
+      "response": []
+    },
+    {
+      "name": "2 - Incremental Update",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "<paste contents of sample_payloads/02_incremental_update.json here>"
+        },
+        "url": { "raw": "{{api_url}}", "host": ["{{api_url}}"] }
+      },
+      "response": []
+    },
+    {
+      "name": "3 - Invalid Data",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "<paste contents of sample_payloads/03_invalid_data.json here>"
+        },
+        "url": { "raw": "{{api_url}}", "host": ["{{api_url}}"] }
+      },
+      "response": []
+    }
+  ]
+}

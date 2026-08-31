@@ -1,0 +1,112 @@
+[
+  {
+    "employee_id": "E001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "designation": "Software Engineer",
+    "salary": 95000,
+    "joining_date": "2022-01-15",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA"
+  },
+  {
+    "employee_id": "E002",
+    "employee_name": "Emily Johnson",
+    "department": "Marketing",
+    "designation": "Marketing Manager",
+    "salary": 105000,
+    "joining_date": "2021-07-10",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA"
+  },
+  {
+    "employee_id": "E003",
+    "employee_name": "Michael Brown",
+    "department": "Finance",
+    "designation": "Financial Analyst",
+    "salary": 85000,
+    "joining_date": "2023-03-05",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA"
+  },
+  {
+    "employee_id": "E004",
+    "employee_name": "Sarah Davis",
+    "department": "HR",
+    "designation": "HR Executive",
+    "salary": 75000,
+    "joining_date": "2022-11-20",
+    "city": "Austin",
+    "state": "TX",
+    "country": "USA"
+  },
+  {
+    "employee_id": "E005",
+    "employee_name": "David Wilson",
+    "department": "Engineering",
+    "designation": "Data Engineer",
+    "salary": 115000,
+    "joining_date": "2020-09-18",
+    "city": "Seattle",
+    "state": "WA",
+    "country": "USA"
+  },
+  {
+    "employee_id": "E006",
+    "employee_name": "Jessica Taylor",
+    "department": "Sales",
+    "designation": "Sales Executive",
+    "salary": 78000,
+    "joining_date": "2021-05-22",
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA"
+  },
+  {
+    "employee_id": "E007",
+    "employee_name": "Daniel Anderson",
+    "department": "Engineering",
+    "designation": "DevOps Engineer",
+    "salary": 110000,
+    "joining_date": "2019-08-14",
+    "city": "Denver",
+    "state": "CO",
+    "country": "USA"
+  },
+  {
+    "employee_id": "E008",
+    "employee_name": "Olivia Martinez",
+    "department": "Finance",
+    "designation": "Accountant",
+    "salary": 72000,
+    "joining_date": "2022-06-30",
+    "city": "Miami",
+    "state": "FL",
+    "country": "USA"
+  },
+  {
+    "employee_id": "E009",
+    "employee_name": "William Thomas",
+    "department": "Marketing",
+    "designation": "Content Strategist",
+    "salary": 88000,
+    "joining_date": "2020-12-11",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA"
+  },
+  {
+    "employee_id": "E010",
+    "employee_name": "Sophia White",
+    "department": "HR",
+    "designation": "HR Manager",
+    "salary": 98000,
+    "joining_date": "2018-04-25",
+    "city": "Dallas",
+    "state": "TX",
+    "country": "USA"
+  }
+]
