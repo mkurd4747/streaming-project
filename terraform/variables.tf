@@ -1,7 +1,7 @@
 variable "project_name" {
   description = "Short name used as a prefix for every resource (lowercase, hyphens only)."
   type        = string
-  default     = "de-academy-streaming"
+  default     = "end-to-end-streaming"
 }
 
 variable "environment" {
@@ -16,18 +16,13 @@ variable "aws_region" {
   default     = "us-east-1"
 }
 
-# ---------------------------------------------------------------------------
-# Phase 2 variables: these come FROM Snowflake and don't exist until you've
-# run 03_storage_integration.sql and 05_snowpipe.sql and read back their
-# output with DESC INTEGRATION / DESC PIPE. Leave the defaults as-is for the
-# first `terraform apply`, then fill these in via terraform.tfvars and run
-# `terraform apply` again. See the root README for the exact steps.
+
 # ---------------------------------------------------------------------------
 
 variable "snowflake_iam_user_arn" {
   description = "STORAGE_AWS_IAM_USER_ARN from `DESC INTEGRATION s3_streaming_integration;` in Snowflake. Placeholder until phase 2."
   type        = string
-  default     = "arn:aws:iam::000000000000:user/placeholder-snowflake-user"
+  default     = "arn:aws:iam::135245989911:root"
 }
 
 variable "snowflake_external_id" {
@@ -36,8 +31,8 @@ variable "snowflake_external_id" {
   default     = "PLACEHOLDER_EXTERNAL_ID_0000"
 }
 
-variable "snowpipe_sqs_arn" {
-  description = "notification_channel ARN from `DESC PIPE DEA_REAL_TIME_SCD1.RAW.EMPLOYEE_PIPE;` in Snowflake. Placeholder until phase 2 (used to wire S3 event notifications to Snowpipe auto-ingest)."
+variable "showtime_sqs_arn" {
+  description = "notification_channel ARN from `DESC PIPE DEA_REAL_TIME_SCD1.RAW.EMPLOYEE_PIPE;` in Snowflake. Placeholder until phase 2 (used to wire S3 event notifications to showtime auto-ingest)."
   type        = string
   default     = ""
 }
