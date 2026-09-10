@@ -1,7 +1,8 @@
 module "s3" {
   source = "./modules/s3"
 
-  project_name     = var.project_name
+  project_name = var.project_name
+
   snowpipe_sqs_arn = var.snowpipe_sqs_arn
 }
 
