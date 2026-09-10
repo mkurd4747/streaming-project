@@ -1,5 +1,5 @@
 apply:
-  needs: ___
+  needs: plan
   runs-on: ubuntu-latest
   if: github.ref == '___' && github.event_name == '___'
   environment: ___
