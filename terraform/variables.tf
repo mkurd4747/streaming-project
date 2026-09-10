@@ -31,8 +31,8 @@ variable "snowflake_external_id" {
   default     = "PLACEHOLDER_EXTERNAL_ID_0000"
 }
 
-variable "showtime_sqs_arn" {
-  description = "notification_channel ARN from `DESC PIPE DEA_REAL_TIME_SCD1.RAW.EMPLOYEE_PIPE;` in Snowflake. Placeholder until phase 2 (used to wire S3 event notifications to showtime auto-ingest)."
+variable "snowpipe_sqs_arn" {
+  description = "notification_channel ARN from `DESC PIPE DEA_REAL_TIME_SCD1.RAW.EMPLOYEE_PIPE;` in Snowflake. Placeholder until phase 2 (used to wire S3 event notifications to Snowpipe auto-ingest)."
   type        = string
   default     = ""
 }
