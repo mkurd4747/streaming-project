@@ -62,9 +62,6 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
           audience: sts.amazonaws.com
-          output-env-credentials: true
-        env:
-          TERRAFORM_CLI_PATH: /home/runner/work/_temp/2932ede3-e439-4a49-be59-4dcca91a0434
 
       - name: Terraform Init
         working-directory: terraform
